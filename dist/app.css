@@ -113,7 +113,7 @@ img {
   background-repeat: no-repeat;
 }
 
-.main {
+main {
   margin: 30px 0;
 }
 
@@ -238,4 +238,57 @@ img {
 }
 .founders span {
   font-size: 11px;
+}
+
+footer {
+  padding-bottom: 25px;
+}
+footer .wrapper {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+footer .teambit {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+footer .teambit img {
+  width: 80px;
+}
+footer .teambit p {
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+footer .teambit p span {
+  color: #2e4790;
+  font-size: 11px;
+  font-weight: 700;
+}
+footer .link-footer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+footer .link-footer div {
+  width: 20%;
+}
+footer .link-footer div h5 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+footer .link-footer div .menu {
+  list-style-type: none;
+}
+footer .link-footer div .menu li {
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: 600;
+}
+footer .link-footer div .menu a {
+  text-decoration: none;
+  color: #58402c;
 }
