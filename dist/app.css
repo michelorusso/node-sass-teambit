@@ -114,12 +114,12 @@ img {
 }
 
 .main {
-  background-color: #ffe7d2;
+  margin: 30px 0;
 }
 
 .solutions {
   padding: 35px 0;
-  margin: auto;
+  background-color: #ffe7d2;
 }
 .solutions .first {
   padding-bottom: 70px;
@@ -155,4 +155,87 @@ img {
 }
 .solutions .second .pictures div:last-child img {
   width: 50px;
+}
+
+.feedback {
+  padding: 30px 0;
+}
+.feedback .single-quest {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+.feedback .single-quest .screen {
+  width: 50%;
+}
+.feedback .single-quest .learn-more {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.feedback .single-quest .learn-more .info {
+  width: 50%;
+}
+.feedback .single-quest .learn-more .info p {
+  padding-top: 50px;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+.feedback .single-quest .learn-more .info a {
+  font-size: 13px;
+  text-decoration: none;
+}
+.feedback .single-quest .learn-more .info div {
+  margin-top: 20px;
+}
+.feedback .single-quest .learn-more .info.right {
+  margin-left: 50%;
+}
+
+.founders {
+  padding: 35px 0;
+  background-color: #ffe7d2;
+}
+.founders h2 {
+  text-align: center;
+  font-size: 28px;
+}
+.founders h2 img {
+  width: 25px;
+  display: inline-block;
+}
+.founders .text {
+  margin: auto;
+  background-color: white;
+  border: 1px solid #2e4790;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 55%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.founders .text p {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+.founders .text .photos {
+  display: flex;
+  align-items: center;
+}
+.founders .text .photos img {
+  width: 50px;
+  margin-right: 20px;
+}
+.founders .text .photos h5 {
+  color: #2e4790;
+}
+.founders .btn-connect {
+  justify-content: center;
+}
+.founders .email {
+  text-align: center;
+}
+.founders span {
+  font-size: 11px;
 }
