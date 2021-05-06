@@ -6,9 +6,109 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #58402c;
 }
 
 img {
   width: 100%;
   display: block;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.btn-connect {
+  display: flex;
+  align-items: center;
+}
+.btn-connect button {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  font-size: 11px;
+  color: white;
+  background-color: #2e4790;
+  border: none;
+  border-radius: 5px;
+}
+.btn-connect button img {
+  width: 15px;
+  margin-right: 5px;
+}
+.btn-connect span {
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #58402c;
+}
+.nav-bar .logo {
+  width: 80px;
+}
+.nav-bar .nav-link .menu {
+  list-style-type: none;
+}
+.nav-bar .nav-link .menu li {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 5px;
+}
+.nav-bar .nav-link .menu li a {
+  color: #58402c;
+  text-decoration: none;
+}
+.nav-bar .nav-link .menu li button {
+  padding: 8px 5px;
+  display: flex;
+  align-items: center;
+  color: #8c9dc7;
+  background-color: white;
+  border: 1px solid #8c9dc7;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav-bar .nav-link .menu li button img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+.jumbotron .title {
+  width: 50%;
+}
+.jumbotron .title h1 {
+  font-size: 30px;
+}
+.jumbotron .title p {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.jumbotron .title .btn-connect {
+  margin-top: 50px;
+}
+.jumbotron .title span {
+  font-size: 12px;
+}
+.jumbotron .img-jumbo {
+  background-image: url(../img/illustration-main.jpg);
+  height: 330px;
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }

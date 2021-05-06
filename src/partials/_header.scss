@@ -1,0 +1,85 @@
+// Nav-Bar
+.nav-bar {
+    @include flexbox;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid $brand-primary-color;
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav-link {
+
+        .menu {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+                font-size: 13px;
+                font-weight: 600;
+                padding: 0 5px;
+
+                a {
+                    color: $brand-primary-color;
+                    text-decoration: none;
+                }
+
+                button {
+                    padding: 8px 5px;
+                    @include flexbox;
+                    color: #8c9dc7;
+                    background-color: white;
+                    border: 1px solid #8c9dc7;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    font-size: 13px;
+                    font-weight: 600;
+
+                    img {
+                        width: 15px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Jumbotron 
+.jumbotron {
+    @include flexbox;
+    align-items: flex-start;
+    margin-top: 40px;
+
+    .title {
+        width: 50%;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .btn-connect {
+            margin-top: 50px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+        
+    }
+
+    .img-jumbo {
+        background-image: url(../img/illustration-main.jpg);
+        height: 330px;
+        width: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
