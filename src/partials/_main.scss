@@ -1,0 +1,61 @@
+// MAIN
+.main {
+    background-color: $brand-second-color;    
+}
+
+.solutions {
+    padding: 35px 0;
+    margin: auto;
+
+    .first {
+        padding-bottom: 70px;
+        border-bottom: 1px solid;
+    }
+
+        h4 {
+            text-align: center;
+        }
+
+        .pictures {
+            @include flexbox;
+            justify-content: space-around;
+            padding: 40px 0;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        .rabbit {
+            margin: auto;
+            width: 20%;
+        }
+
+    .second {
+        padding: 70px 0;
+
+        .pictures {
+
+            div {
+                @include flexbox;
+                flex-direction: column;
+            }
+
+            span {
+                font-size: 11px;
+                padding-top: 15px;
+            }
+
+            div:last-child img {
+            width: 50px;
+            }
+        }
+        
+        
+    }
+        
+}
+
+.feedback {
+    
+}
