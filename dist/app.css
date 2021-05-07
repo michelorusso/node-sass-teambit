@@ -113,6 +113,11 @@ img {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  .nav-bar .nav-link {
+    display: none;
+  }
+}
 main {
   margin: 30px 0;
 }
@@ -240,6 +245,17 @@ main {
   font-size: 11px;
 }
 
+@media screen and (max-width: 768px) {
+  .feedback .single-quest {
+    display: block;
+  }
+  .feedback .single-quest .screen {
+    width: 100%;
+  }
+  .feedback .single-quest .learn-more {
+    width: 100%;
+  }
+}
 footer {
   padding-bottom: 25px;
 }
@@ -291,4 +307,17 @@ footer .link-footer div .menu li {
 footer .link-footer div .menu a {
   text-decoration: none;
   color: #58402c;
+}
+
+@media screen and (max-width: 768px) {
+  footer .wrapper {
+    display: block;
+  }
+  footer .wrapper .teambit {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  footer .wrapper .link-footer {
+    width: 100%;
+  }
 }

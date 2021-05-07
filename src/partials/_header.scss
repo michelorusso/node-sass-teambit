@@ -85,3 +85,13 @@
         background-repeat: no-repeat;
     }
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+    .nav-bar {
+        
+        .nav-link {
+            display: none;
+        }
+    }
+}

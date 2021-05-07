@@ -64,3 +64,22 @@ footer {
 
     }
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+   footer {
+
+        .wrapper {
+            display: block;
+
+            .teambit {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+
+            .link-footer {
+                width: 100%;
+            }
+        }
+   }
+}
