@@ -6,15 +6,17 @@ main {
 // solutions
 .solutions {
     padding: 35px 0;
-    background-color: $brand-second-color;  
+    background-image: $brand-second-color;  
 
     .first {
         padding-bottom: 70px;
         border-bottom: 1px solid;
+        color: white;
     }
 
         h4 {
             text-align: center;
+            color: white
         }
 
         .pictures {
@@ -23,7 +25,11 @@ main {
             padding: 40px 0;
 
             img {
-                width: 100px;
+                width: 120px;
+                background-color: white;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px 2px rgb(72, 0, 139);
             }
         }
 
@@ -34,6 +40,7 @@ main {
 
     .second {
         padding: 70px 0;
+        color: white;
 
         .pictures {
 
@@ -48,7 +55,7 @@ main {
             }
 
             div:last-child img {
-            width: 50px;
+            width: 80px;
             }
         }
         
@@ -106,7 +113,8 @@ main {
 // founders
 .founders {
     padding: 35px 0;
-    background-color: $brand-second-color;  
+    background-image: $brand-second-color;  
+    color: white;
 
     h2 {
         text-align: center;
@@ -120,8 +128,9 @@ main {
 
     .text {
         margin: auto;
+        color: darkblue;
         background-color: white;
-        border: 1px solid #2e4790;
+        box-shadow: 0 0 5px 2px rgb(72, 0, 139);
         border-radius: 10px;
         padding: 10px 15px;
         width: 55%;
@@ -179,6 +188,13 @@ main {
                 width: 100%;
             }
 
+        }
+    }
+
+    .solutions {
+
+        .rabbit {
+            width: 80%;
         }
     }
 }

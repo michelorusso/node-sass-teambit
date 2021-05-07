@@ -7,15 +7,23 @@
     
     <title>Teambit</title>
 
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
     <link rel="stylesheet" href="dist/app.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
 </head>
 <body>
 
-    <!-- HEADER -->
+    <div id="root">
+
+        <!-- HEADER -->
     <header>
         <div class="wrapper">
 
@@ -24,9 +32,40 @@
 
                 <!-- logo -->
                 <div class="logo">
-                    <img src="img/logo.svg" alt="logo">
+                    <img src="img/TB_logo.png" alt="logo">
                 </div>
                 <!-- End logo -->
+
+                <!-- Burger -->
+                <div class="burger-menu">
+                    <i class="fas fa-bars" @click="dropdown"></i>
+   
+                    <div class="dropdown" v-if=" active == true ">
+
+                        <ul class="menu">
+
+                            <li>
+                                <a href="#">Solutions</a>
+                            </li>
+    
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+    
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+    
+                            <li>
+                                <a href="#">Sign in</a>
+                            </li>
+    
+                        </ul>
+
+                    </div>
+
+                </div>
+                <!-- End Burger -->
 
                 <!-- nav-link -->
                 <div class="nav-link">
@@ -333,7 +372,7 @@
 
             <div class="teambit">
 
-                <img src="img/logo-small.svg" alt="logo-small">
+                <img src="img/TB_logo_small.png" alt="logo-small">
 
                 <p><span>Teambit</span> helps teams create high performing cultures by making feedback a daily habit.</p>
 
@@ -508,6 +547,10 @@
         </div>
     </footer>
     <!-- END FOOTER -->
+
+    </div>
+
+    <script src="dist/app.js"></script>
 
     
 </body>
